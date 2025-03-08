@@ -26,7 +26,7 @@ if (form) {
             password: password
         };
 
-        fetch('https://hook.eu2.make.com/h5wei8h57yaet9f693hx1hjlpysisffq', {
+        fetch('https://hook.eu2.make.com/pbt4v2e6squsalhan31lpd6gvokwiy5p', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
