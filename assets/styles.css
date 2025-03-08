@@ -1,0 +1,73 @@
+@media only screen and (max-width: 720px) {
+    .form-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+        position: relative; /* add this */
+    }
+    .form-group label {
+        margin-bottom: 5px;
+        font-size: 16px;
+    }
+    .mail-input {
+        position: relative;
+        width: 70%;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        font-size: 16px;
+        box-sizing: border-box;
+    }
+    .pass-input {
+        position: relative;
+        top: 10px;
+        width: 70%;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        font-size: 16px;
+        box-sizing: border-box;
+    }
+    .submit-button {
+        position: relative;
+        top: 20px; 
+        padding: 20px 210px; /* reduce padding to make room for the text */
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 200px;
+        font-size: 24px; /* reduce font size to fit the text in one line */
+        cursor: pointer;
+        transform: scale(0.7);
+        white-space: nowrap; /* add this to prevent the text from wrapping to a new line */
+    }
+    .submit-button:hover {
+        background-color: #0056b3;
+    }
+    
+    
+    .facebook-container {
+        position: relative;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px; /* add some space between the icon and the form */
+        transform: scale(0.3);
+    }
+    .form-container {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .meta-container {
+        position: relative;
+        width: 100%;
+        text-align: center;
+        margin-top: 315px; /* add some space between the icon and the form */
+        transform: scale(0.4);
+        color: gray;
+        opacity: 70%;
+    }
+}
